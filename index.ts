@@ -30,7 +30,7 @@ class Developer extends Person {
     name: string,
     age: number,
     saySomething: (s: string) => void,
-    bestLanguage: (s: string) => void
+    bestLanguage: (d: string) => void
   ) {
     super(name, age, saySomething);
     this.bestLanguage = bestLanguage;
