@@ -37,13 +37,13 @@ class Developer extends Person {
   }
 } //fin class Developer
 
-// const developer = new Developer(
-//   "pedro",
-//   35,
-//   something => console.log(something),
-//   language => console.log(language + " is the best language")
-// );
+const developer = new Developer(
+  "pedro",
+  35,
+  something => console.log(something),
+  language => console.log(language + " is the best language")
+);
 
-// developer.myNameIs();
-// developer.saySomething('algo');
-// developer.bestLanguage('Javascript');
+developer.myNameIs();
+developer.saySomething("algo");
+developer.bestLanguage("Javascript");
